@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^cran-comments.md
+^LICENSE.md
+^CRAN-RELEASE$
+^_pkgdown.yml
+^README_cache
+^docs
+^pkgdown
+^README.Rmd

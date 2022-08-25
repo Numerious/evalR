@@ -1,0 +1,10 @@
+pandoc: 2.17.1.1
+pkgdown: 2.0.5
+pkgdown_sha: ~
+articles:
+  Overview: Overview.html
+last_built: 2022-08-25T12:33Z
+urls:
+  reference: https://numerious.github.io/evalR/reference
+  article: https://numerious.github.io/evalR/articles
+

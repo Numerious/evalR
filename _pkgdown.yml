@@ -1,0 +1,9 @@
+url: https://numerious.github.io/evalR/
+
+home:
+  title: Evaluation of Unverified Code
+
+template:
+  bootstrap: 5
+  bootswatch: simplex
+
