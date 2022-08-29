@@ -7,10 +7,10 @@
 find_parenthesis(text)
 }
 \arguments{
-\item{text}{The string/code/statement you want to parse.}
+\item{text}{the string/code/statement you want to parse.}
 }
 \value{
-A substring. Either "" or the first parenthesis block.
+a substring. Either "" or the first parenthesis block.
 }
 \description{
 This function will search for the first block of parenthesis and return it if found. Otherwise, it will return "".

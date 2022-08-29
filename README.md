@@ -334,15 +334,15 @@ microbenchmark::microbenchmark(
   {evalR::eval_text(text)},
   {evalR::create_tree(text)}, n=1000)
 #> Warning in microbenchmark::microbenchmark({: Could not measure a positive
-#> execution time for 60 evaluations.
+#> execution time for 68 evaluations.
 #> Unit: nanoseconds
-#>                              expr    min     lq   mean median     uq    max
-#>                {     log(1 + 2) }    100    100    439    200    300  13500
-#>  {     eval(parse(text = text)) }   4400   6100   8517   6800   8850  28400
-#>    {     evalR::eval_tree(tree) }  19100  21050  26502  22300  25500  92500
-#>    {     evalR::eval_text(text) } 158200 166900 194175 177250 218800 296400
-#>  {     evalR::create_tree(text) } 138100 147600 170996 157150 185100 290000
-#>                                 n      0      0      0      0      0      0
+#>                              expr    min     lq   mean median     uq     max
+#>                {     log(1 + 2) }    100    100    274    200    350    1900
+#>  {     eval(parse(text = text)) }   4700   6600   9578   8400  10000   36200
+#>    {     evalR::eval_tree(tree) }  20400  22950  30774  25900  29950  126400
+#>    {     evalR::eval_text(text) } 176300 192000 233953 217950 256600  391100
+#>  {     evalR::create_tree(text) } 152800 167200 226799 197800 241100 1653000
+#>                                 n      0      0      3      0      0     300
 #>  neval
 #>    100
 #>    100

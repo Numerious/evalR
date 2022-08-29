@@ -12,19 +12,19 @@ create_tree(
 )
 }
 \arguments{
-\item{text}{The string/code/statement you want to parse.}
+\item{text}{the string/code/statement you want to parse.}
 
-\item{singular_operators}{Tokens of length 1 that operate on a right hand value. For example, the `-` token is an operator to negate a vector. \code{NULL} value will be replaced with \code{c("-", "!")}.}
+\item{singular_operators}{tokens of length 1 that operate on a right hand value. For example, the `-` token is an operator to negate a vector. \code{NULL} value will be replaced with \code{c("-", "!")}.}
 
-\item{binary_operators}{Tokens of any length that operate on a left and right hand values. For example, the `+` token is an operator that adds a left vector to a right vector. \code{NULL} value will be replaced with \code{c(",", "|", "&", "<=", "<", ">=", ">", "==", "!=", "+", "-", "*", "\%/\%", "/", "\%\%", "\%in\%", ":", "^")}. The order determines the precedence of the operators.}
+\item{binary_operators}{tokens of any length that operate on a left and right hand values. For example, the `+` token is an operator that adds a left vector to a right vector. \code{NULL} value will be replaced with \code{c(",", "|", "&", "<=", "<", ">=", ">", "==", "!=", "+", "-", "*", "\%/\%", "/", "\%\%", "\%in\%", ":", "^")}. The order determines the precedence of the operators.}
 
-\item{valid_functions}{Tokens of any length that are prefixed on a parenthesis block and specify a function to run on the provided parameters within the block. For example, the `log` token will evaluate the logarithm value of the first parameter. Note named parameters are not support. \code{NULL} value will be replaced with \code{c("log", "c", "any", "all", "abs", "ifelse")}.}
+\item{valid_functions}{tokens of any length that are prefixed on a parenthesis block and specify a function to run on the provided parameters within the block. For example, the `log` token will evaluate the logarithm value of the first parameter. Note named parameters are not support. \code{NULL} value will be replaced with \code{c("log", "c", "any", "all", "abs", "ifelse")}.}
 }
 \value{
-A list of lists. In other words, a tree data structure made from lists.
+a list of lists. In other words, a tree data structure made from lists.
 }
 \description{
-Function will break \code{text} into a list of lists.
+function will break \code{text} into a list of lists.
 }
 \details{
 See \code{vignette("Overview", package = "evalR")}

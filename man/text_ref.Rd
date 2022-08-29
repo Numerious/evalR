@@ -4,7 +4,7 @@
 \alias{text_ref}
 \title{arguments to use with @inheritParams}
 \arguments{
-\item{text}{The string/code/statement you want to parse.}
+\item{text}{the string/code/statement you want to parse.}
 }
 \description{
 arguments to use with @inheritParams

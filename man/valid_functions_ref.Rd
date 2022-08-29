@@ -4,7 +4,7 @@
 \alias{valid_functions_ref}
 \title{arguments to use with @inheritParams}
 \arguments{
-\item{valid_functions}{Tokens of any length that are prefixed on a parenthesis block and specify a function to run on the provided parameters within the block. For example, the `log` token will evaluate the logarithm value of the first parameter. Note named parameters are not support. \code{NULL} value will be replaced with \code{c("log", "c", "any", "all", "abs", "ifelse")}.}
+\item{valid_functions}{tokens of any length that are prefixed on a parenthesis block and specify a function to run on the provided parameters within the block. For example, the `log` token will evaluate the logarithm value of the first parameter. Note named parameters are not support. \code{NULL} value will be replaced with \code{c("log", "c", "any", "all", "abs", "ifelse")}.}
 }
 \description{
 arguments to use with @inheritParams

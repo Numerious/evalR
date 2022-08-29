@@ -29,7 +29,7 @@ Any statement can be represented by a tree data structure. Here is a quote from 
 
 > In computer science, a tree is a widely used abstract data type that represents a hierarchical tree structure with a set of connected nodes. Each node in the tree can be connected to many children (depending on the type of tree), but must be connected to exactly one parent, except for the root node, which has no parent. These constraints mean there are no cycles or "loops" (no node can be its own ancestor), and also that each child can be treated like the root node of its own subtree, making recursion a useful technique for tree traversal. In contrast to linear data structures, many trees cannot be represented by relationships between neighboring nodes in a single straight line. 
 >
-> `r tufte::quote_footer('--- Wikipedia.org Tree (data structure)')`
+> `r evalR:::quote_footer('--- Wikipedia.org Tree (data structure)')`
 
 
 By default the package will know how to parse a R statement into a tree. In theory, you could supply your own tokens and use the package to parse any language that follows similar grammar.

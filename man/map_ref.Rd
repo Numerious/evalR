@@ -4,7 +4,7 @@
 \alias{map_ref}
 \title{arguments to use with @inheritParams}
 \arguments{
-\item{map}{A named list of data.frames/lists/matrices. Where names are keys for referencing the values in the \code{text} parameters.}
+\item{map}{a named list of data.frames/lists/matrices. Where names are keys for referencing the values in the \code{text} parameters.}
 }
 \description{
 arguments to use with @inheritParams

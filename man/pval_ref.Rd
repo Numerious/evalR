@@ -4,7 +4,7 @@
 \alias{pval_ref}
 \title{arguments to use with @inheritParams}
 \arguments{
-\item{pval}{The pval branch of a \code{tree}}
+\item{pval}{the pval branch of a \code{tree}}
 }
 \description{
 arguments to use with @inheritParams

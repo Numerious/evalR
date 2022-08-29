@@ -4,7 +4,7 @@
 \alias{mapping_names_ref}
 \title{arguments to use with @inheritParams}
 \arguments{
-\item{mapping_names}{Optional argument to make the function faster or limit which map elements can be referenced.}
+\item{mapping_names}{optional argument to make the function faster or limit which map elements can be referenced.}
 }
 \description{
 arguments to use with @inheritParams

@@ -4,7 +4,7 @@
 \alias{binary_operators_ref}
 \title{arguments to use with @inheritParams}
 \arguments{
-\item{binary_operators}{Tokens of any length that operate on a left and right hand values. For example, the `+` token is an operator that adds a left vector to a right vector. \code{NULL} value will be replaced with \code{c(",", "|", "&", "<=", "<", ">=", ">", "==", "!=", "+", "-", "*", "\%/\%", "/", "\%\%", "\%in\%", ":", "^")}. The order determines the precedence of the operators.}
+\item{binary_operators}{tokens of any length that operate on a left and right hand values. For example, the `+` token is an operator that adds a left vector to a right vector. \code{NULL} value will be replaced with \code{c(",", "|", "&", "<=", "<", ">=", ">", "==", "!=", "+", "-", "*", "\%/\%", "/", "\%\%", "\%in\%", ":", "^")}. The order determines the precedence of the operators.}
 }
 \description{
 arguments to use with @inheritParams

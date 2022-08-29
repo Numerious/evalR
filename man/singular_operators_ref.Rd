@@ -4,7 +4,7 @@
 \alias{singular_operators_ref}
 \title{arguments to use with @inheritParams}
 \arguments{
-\item{singular_operators}{Tokens of length 1 that operate on a right hand value. For example, the `-` token is an operator to negate a vector. \code{NULL} value will be replaced with \code{c("-", "!")}.}
+\item{singular_operators}{tokens of length 1 that operate on a right hand value. For example, the `-` token is an operator to negate a vector. \code{NULL} value will be replaced with \code{c("-", "!")}.}
 }
 \description{
 arguments to use with @inheritParams

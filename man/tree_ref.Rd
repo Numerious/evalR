@@ -4,7 +4,7 @@
 \alias{tree_ref}
 \title{arguments to use with @inheritParams}
 \arguments{
-\item{tree}{The output object from \link{create_tree}}
+\item{tree}{the output object from \link{create_tree}}
 }
 \description{
 arguments to use with @inheritParams
